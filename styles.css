@@ -1,0 +1,34 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	min-height: 100%;
+	/*
+	background-image: url("/images/sky.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+}
+
+.navbar {
+	border-radius: 0px !important;
+}
+
+#weather {
+	border: 1px solid black;
+	background-color: lightgrey;
+}
+
+#cityForm {
+	padding: 20px 0 20px 0;
+}
+
+#currentWeather {
+	border-bottom: 1px solid black;
+}
+
+.forecastItem {
+	border: 1px solid black;
+}
