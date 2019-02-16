@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+    /* Aids footer's position */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    /* Aids footer's Margin bottom */
+    margin-bottom: 60px;
+}
+
+.creatorImage {
+	height: 450px;
+}
+
+.creatorDesc {
+	color: #b8860b;
+}
+
+.creatorName {
+	margin-top: 15px;
+	font-family: 'Brush Script MT', 'Javanese Text', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 2.5em;
+	color: #b8860b;
+}
+
+.fillerBlack {
+	width: 100%;
+	height: 500px;
+	background-color: black !IMPORTANT;
+}
+
+.navbar {
+	border-radius: 0px !IMPORTANT;
+	margin-bottom: 0px !IMPORTANT;
+}
+
+.navbar-fixed-bottom {
+	opacity: .9;
+}
+
+#mainTitle {
+    font-size: 2em !important;
+}
+
+#welcome {
+    font-family: 'Brush Script MT', 'Javanese Text', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod !important;
+    font-size: 5em !important;
+    font-weight: 400;
+    text-shadow: 4.5px 4.5px 3px black;
+    padding-top: 10%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pageFill {
+	height: 100%;
+	width: 100%;
+	background-color: black !IMPORTANT;
+}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.filler {
+	width: 100%;
+	height: 100px;
+}
+
+img {
+	width: 100%;
+}
+
+h1 {
+    color: goldenrod !important;
+    margin-top: 0px !important;
+    padding-top: 30px !important;
+    text-shadow: 1.5px 1.5px 3px #b8860b;
+    font-family: 'Brush Script MT' !important;
+    font-size: 5em !important;
+}
+
+.col-md-8 {
+    color: #b8860b;
+}
+
+
+
+#footerLink {
+    padding-left: 48%;
+    font-size: 2em;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+
+/* -----Brand----- for all .html files */
+html body nav a.navbar-brand {
+    font-family: 'Brush Script MT', 'Javanese Text', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod !important;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-shadow: 4.5px 4.5px 3px black;
+}
+
+/* -----Menu----- for all .html files */
+html body nav.bg-dark {
+    background-color: black !important;
+}
+
+html body nav div ul.navbar-nav {
+    /* ---Buttons--- */
+    font-family: 'Brush Script MT', 'Javanese Text', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    padding-left: 29%;
+}
+
+.nav-link:hover {
+    /* Hover properties */
+    color: goldenrod !important;
+}
+
+html body nav div ul li.active {
+    /* Active properties */
+    font-family: 'Brush Script MT', 'Javanese Text', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white !important;
+    box-shadow: 0 0 2.5px .75px goldenrod;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+/* Title for all .html files */
+html body div.title {
+    font-family: 'Brush Script MT', 'Javanese Text', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 8em !important;
+    font-weight: 300;
+}
