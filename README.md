@@ -1,26 +1,30 @@
-# cs260-creative-1
+# cs260-creative-2
+
+For this lab, you will create a website that uses HTML, CSS, and JavaScript. This website can be for anything you want, but should not be similar to Lab 2.
+Your main goal with this project is to connect to an API using JavaScript, like what we did with Lab 2. You should find an open API (e.g. free, but perhaps requires registration), and write a site that uses this API to present the data.
+
+You should look at this [list of open API's](https://github.com/toddmotto/public-apis).
 
 ## Requirements
 This is a creative project, so you are welcome to build what you would like. The basic requirements are:
-- [x] A home page
-- [x] Three or more additional pages
-- [x] The site uses some images
-- [x] The site uses Bootstrap for a menu
-- [x] A footer that lists the URL for your GitHub repository
+- [ ] The site uses JavaScript and fetch to get data from an external API
+- [ ] The site contains a footer that links to your public GitHub repository
+The GitHub repository should be in your own GitHub account.
 
 ## Rubric for Grading
 We will grade your projects based on:
-- [x] You met all the requirements
+- [ ] how clearly you present the data from the API
 - [x] How well you follow web design principles: spacing, typography, color, consistency, and responsive design
 
 TA's will assign scores in these ranges:
-- [x] 90-100: Excellent use of HTML, CSS, Bootstrap menu, Bootstrap grid (or CSS grid or flexbox) to make columns, meets requirements, clearly follows web design principles
-- [x] 80-90: Uses most of the tools, good effort was made, but missed some requirements and/or needs work to more clearly present the data or follow web design principles
-- [x] 70-80: Uses some of the tools, but misses several requirements, and/or does not make a strong effort or follow web design principles
+- [ ] 90-100: Excellent presentation of data from the API, clearly follows web design principles
+- [ ] 80-90: Uses an external API, good effort was made, but needs work to more clearly present the data or follow web design principles
+- [ ] 70-80: Fulfills the minimum requirement of using an API, but does not make a strong effort to present the data clearly or follow web design principles
 
 ## Submission
-On Canvas, submit the URL for your website, which should be running on your DigitalOcean server. 
-You should also enter your name, your partner's name (if any), and your URL on this [spreadsheet](https://docs.google.com/spreadsheets/d/1K01BF5ZP5DByhydon5SfeE7dqKmogAX_XqzprGE2XTY/edit#gid=1892165156).
+Please submit to Canvas the URL for your web server, where your code is running (e.g. on your DigitalOcean server). On this website, in a footer, you must include a link to your GitHub repository. Use a unique URL for the project, e.g. cp2.emmasmith.org.
+You should also enter your partner's name (if any).
+We have provided an initial set of random pair programming partners for everyone. See this [spreadsheet](https://docs.google.com/spreadsheets/d/1c5lOrCENOqa_Lfs2T_SSVozyBbTdY9bMgb6I4_trh1s/edit#gid=1017783893). If you can, please work with this person. If you prefer, you can edit the sheet to setup a different partnership or to work alone.
 Be sure to select the appropriate tab at the bottom!
 
 ## How to modify this file succesfully
