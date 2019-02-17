@@ -6,9 +6,10 @@ html {
 }
 
 body {
-    height: 100%;
-    /* Aids footer's Margin bottom */
-    margin-bottom: 60px;
+  height: 100%;
+  /* Aids footer's Margin bottom */
+  margin-bottom: 60px;
+  color: black;
 }
 
 .creatorImage {
