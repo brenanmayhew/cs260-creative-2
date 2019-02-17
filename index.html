@@ -3,8 +3,16 @@
     <head>
         <link rel="stylesheet" href="/css/styles.css">
         <title>Mars Pictures</title>
+
+        <!--  jQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <!-- Bootstrap Date-Picker Plugin -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
     </head>
 
     <body>
@@ -28,6 +36,7 @@
 						Date: <input type="text" name="date" id="date">
 						<input type="submit" name="submit" value="Search" />
 					</form>
+					<div id="apodResult"></div>
         </div>
 
         <nav class="navbar navbar-inverse navbar-fixed-bottom">
