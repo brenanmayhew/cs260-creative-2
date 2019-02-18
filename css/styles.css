@@ -2,27 +2,6 @@ html {
   background-color: #202020;
 }
 
-/*Main Content*/
-#mainTitle {
-  font-size: 2em !important;
-}
-.col-md-8 {
-  color: #b8860b;
-}
-
-#welcome {
-  font-family: 'Arial Narrow', Arial, sans-serif;
-  color: mediumpurple !important;
-  font-size: 1.3em !important;
-  font-weight: 400;
-  text-shadow: 4.5px 4.5px 3px black;
-  padding-top: 10%;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  background-color: #202020;
-}
-
 /* -----Brand----- for all .html files */
 html body nav a.navbar-brand {
   font-family: sans-serif, 'Arial Narrow', Arial;
@@ -32,45 +11,23 @@ html body nav a.navbar-brand {
   text-shadow: 2px 2px 1.5px black !important;
 }
 
-
-html body nav div ul.navbar-nav {
-    /* ---Buttons--- */
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
-    padding-left: 29%;
-}
-
-.nav-link:hover {
-    /* Hover properties */
-    color: mediumpurple !important;
-}
-
-html body nav div ul li.active {
-  /* Active properties */
+/*Main Content*/
+#welcome {
   font-family: 'Arial Narrow', Arial, sans-serif;
-  margin: -10px 0 -10px 0;
-  padding-top: 10px;
-  background-color: #202020 !important;
-  border-radius: 40%;
-  box-shadow: 0 0 2.5px .75px #202020;
-  font-size: 1.2em;
-  font-weight: 500;
-  font-style: oblique;
+  color: mediumpurple !important;
+  font-size: 1.3em !important;
+  font-weight: 400;
+  text-shadow: 4.5px 4.5px 3px black;
+  padding-top: 100px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: #202020;
 }
 
-  html body nav div ul li.active
-
-
-  /* Title for all .html files */
-  html body div.title {
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    font-size: 8em !important;
-    font-weight: 300;
-  }
+#mainTitle {
+  font-size: 2em !important;
+}
 
 .footer {
   position: fixed;
@@ -89,27 +46,4 @@ html body footer a.link {
   color: black !important;
   font-weight: 500;
   text-shadow: 1px 0.5px 0.1px black;
-}
-
-
-/*Creators.html*/
-.creatorImage {
-  height: 450px;
-}
-
-.creatorDesc {
-  color: #b8860b;
-}
-
-.creatorName {
-  margin-top: 15px;
-  font-family: 'Arial Narrow', Arial, sans-serif;
-  font-size: 2.5em;
-  color: #b8860b;
-}
-
-.pageFill {
-  height: 100%;
-  width: 100%;
-  background-color: black !IMPORTANT;
 }

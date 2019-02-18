@@ -1,13 +1,10 @@
 $(document).ready(function(){
-  var date_input=$('input[name="date"]'); //our date input has the name "date"
-  var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
-  var options={
-    format: 'mm/dd/yyyy',
-    container: container,
-    todayHighlight: true,
-    autoclose: true,
-  };
-  date_input.datepicker(options);
+  $('input[name="date"]').datepicker({
+		format: 'mm/dd/yyyy', 
+		todayHighlight: true, 
+		autoclose: true, 
+		endDate: new Date(), 
+	});
 })
 
 function getAPOD(event) {
@@ -19,16 +16,18 @@ function getAPOD(event) {
 	}
 	let newDate = date.split('/');
 	date = newDate[2] + '-' + newDate[0] + '-' + newDate[1];
-	console.log(date);
+	// console.log(date);
 
 	fetch("https://api.nasa.gov/planetary/apod?date=" + date + "&api_key=gmkr2JQnlSozUzaMAoEiS8JWdVz2RILzIAFMg0Aa") 
 	.then((resp) => resp.json())
 	.then((json) => {
-		console.log(json);
+		// console.log(json);
 		let results = "";
-		results += "<h2>NASAs Astronomy Picture of the Day</h2>";
-		results += '<img src="' + json.hdurl + '"/>';
-		results += "<p>" + json.explanation + "</p>";
+		results += '<h2 id="apiTitle">NASAs Astronomy Picture of the Day</h2>';
+		results += '<img src="' + json.url + '" width="100%"/>';
+		results += '<p id="apiExplanation">' + json.explanation + '</p>';
 		document.getElementById("apodResult").innerHTML = results;
+		document.getElementById("apiTitle").setAttribute("style", "margin: 100px 0 10px 0;");
+		document.getElementById("apiExplanation").setAttribute("style", "margin: 10px 0 200px 0;");
 	})
 }
