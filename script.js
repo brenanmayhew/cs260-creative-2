@@ -24,7 +24,7 @@ function getAPOD(event) {
 		// console.log(json);
 		let results = "";
 		results += '<h2 id="apiTitle">NASAs Astronomy Picture of the Day</h2>';
-		results += '<img src="' + json.url + '" width="100%"/>';
+		results += '<img src="' + json.url + '" width="50%"/>';
 		results += '<p id="apiExplanation">' + json.explanation + '</p>';
 		document.getElementById("apodResult").innerHTML = results;
 		document.getElementById("apiTitle").setAttribute("style", "margin: 100px 0 10px 0;");
